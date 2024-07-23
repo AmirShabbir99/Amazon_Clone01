@@ -1,0 +1,100 @@
+.nav{
+    background-color: #232f3e;
+    border: 2px solid gray;
+    display: flex;
+}
+.navbar:hover{
+    border: 1px solid white;
+}
+.locationLogo{
+    margin-top: 15px;
+    color: white;
+}
+.locationLogo:hover
+{
+    border: 1px solid white;
+}
+.searchbar{
+    display: flex;
+}
+.arrow{
+    background-color: rgb(155, 151, 151);
+    color: white;
+    height: 28px;
+    margin-left: 50px;
+    margin-top: 15px;
+    border-top-left-radius: 5px;
+    display: flex;
+   
+}
+.arrow p{
+    margin-top: 5px;
+    font-size: 15px;
+    margin-right: 5px;
+}
+.search{
+    margin-top:15px ;
+    display: flex;
+}
+.search input{
+     height: 25px;
+    width: 500px;
+}
+.magnifier{
+    background-color: #febd69;
+    height: 28px;
+    width: 30px;
+    margin-top: 15px;
+    border-top-right-radius: 5px;
+}
+.magnifier i{
+    margin-left: 7px;
+    margin-top: 5px;
+}
+.right{
+    display: flex;
+    padding: 15px;
+    color: white;
+}
+.right p{
+    margin-left: 3px;
+    font-size: 15px;
+    margin-right: 5px;
+}
+.right:hover{
+   border: 1px solid white;
+    
+}
+.navthree{
+    display: flex;
+}
+.navfour{
+    display: flex;
+}
+.user{
+    margin-top: 5px;
+    color: white;
+}
+.user:hover{
+    border: 1px solid white;
+ }
+ .return{
+    margin-top: 10px;
+    color: white;
+    margin-left: 10px;
+ }
+ .return:hover{
+    border: 1px solid white;
+ }
+ .cart{
+    margin-top: 5px;
+    color: white;
+    margin-left: 15px;   
+ }
+ .cart:hover{
+    border: 1px solid white;
+ }
+ .cart p{
+    margin-left: 5px;
+    color: #febd69;
+}

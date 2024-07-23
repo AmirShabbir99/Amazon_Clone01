@@ -1,0 +1,32 @@
+.ProductCard{
+    background-color: #efecec;
+    height: 380px;
+    width: 280px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    margin-left: 30px;
+    
+}
+.cardp{
+    margin: 15px;
+}
+.imgp{
+    margin-top: 15px;
+    height: 200px;
+    width: 250px;
+}
+.rating{
+    color: goldenrod;
+}
+.priceP{
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.btnP{
+    margin-left: 150px;
+    background-color: goldenrod;
+    padding: 5px;
+    border: transparent;
+    border-radius: 2px;
+}

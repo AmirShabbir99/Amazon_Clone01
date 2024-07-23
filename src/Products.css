@@ -1,0 +1,41 @@
+
+.Products{
+    display: flex;
+    background-color: beige;
+}
+.bold h3{
+    margin-left: 10px;
+    margin-top: 7px;
+}
+.product{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 14px;
+}
+.Product2_0{
+    display: flex;   
+}
+.Product2{
+    width: 200px;
+    height: 100%;
+    border: 0.1px solid gray;
+    
+}
+.product2{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.category h3{
+    margin-top: 20px;
+}
+.sm1{
+    margin-right:5px ;
+    color: goldenrod;
+}
+
+
+
+.product-card{
+    display: grid;
+    grid-template-columns: auto auto auto;   
+}

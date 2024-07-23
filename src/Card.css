@@ -1,0 +1,28 @@
+.card-all{
+    display: flex;
+    width: 260px;
+    height: 290px;
+    margin-top: 10px;   
+    margin-right: 20px;
+    background-color: #efecec;
+}
+.card-full{ 
+   
+    margin: 10px 0 10px 5px;
+}
+
+.card1{
+    display: flex;
+}
+.cimg{
+    width: 110px;
+    height: 100px;   
+}
+.card2
+{
+    margin-left: 10px;
+    display: flex;
+}
+.data{
+    margin-left: 10px;
+}

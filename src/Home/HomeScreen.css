@@ -1,0 +1,88 @@
+.front-img img{
+    width: 1280px;
+    height: 99vh;
+    position: absolute;
+    z-index: -1;
+ }
+.home{
+    margin-left: 30px;
+    height: 122vh;
+    display: grid;
+    grid-template-columns:  auto auto auto auto;
+    grid-column-gap: 10px;
+}
+
+
+@media screen and (max-width: 480px) {
+    .nav {
+        width: 480px;
+        display: grid;
+        grid-template-rows: auto auto;
+    }
+   
+    .nav{
+        font-size: 13px;
+    }
+    .searchbar{
+        width: 200px;
+        font-size: 13px;
+    }
+    .search input{
+       display: grid;
+       
+       grid-template-columns:auto;
+       width: 100px;
+       font-size: 13px;
+    }
+    .arrow{
+        margin-left: -1px;
+    }
+
+    .navthree{
+        display: grid;
+        grid-template-columns: 120px 120px 200px;
+    }
+    .navfour{
+        display: grid;
+        grid-template-columns: 110px 110px 110px 110px;
+    }
+
+    .NavBanner{
+        width: 480px;
+    }
+    .nav2
+    {
+        margin-top: 3px;
+        padding: 5px;
+        font-size: 14px;
+    }
+    .return{
+        display: flex;
+    }
+    .home{
+        position: relative;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto auto;
+    }
+    .front-img img{
+    width: 480px;
+    height: 99vh;
+    }
+    .card-all{
+        background-color: rebeccapurple;
+        width: 200px;
+        height: 200px;
+        margin-right: -1;
+    }
+    .heading{
+        margin-top: 650px;
+    }
+    .ScrollCard{
+        margin-top: 650px;
+    }
+
+
+
+}
+

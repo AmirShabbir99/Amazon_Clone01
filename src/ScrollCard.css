@@ -1,0 +1,32 @@
+.heading{
+    margin-top: 20px;
+}
+.ScrollCard{
+display: flex;
+overflow-x: auto;
+}
+.ScrollCard::-webkit-scrollbar{
+    width: 8px;
+    height: 8px;
+}
+.Scroll1{
+    background-color: #efecec;
+    width: 100%;
+    height: 250px;
+    
+}
+.Scroll1 img{
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 180px;
+    width: 180px;
+}
+
+.data1{
+    background-color: rgb(249, 81, 81);
+    color: white;
+    font-size: 13px;
+    width: fit-content;
+    margin-left: 30px;
+    margin-top: 10px;
+}

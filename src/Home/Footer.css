@@ -1,0 +1,21 @@
+.Footer{
+    display: flex;
+    color: white;
+    background-color: #232f3e;
+    margin-top: 30px;
+    height: 200px;
+    justify-content: center;
+}
+.footer1{
+    margin-top: 20px;
+    margin-left: 50px;
+    justify-content: space-around;
+}
+.boldf{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.listf{
+    margin: 10px;
+    font-size: 13px;
+}
