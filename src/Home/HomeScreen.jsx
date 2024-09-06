@@ -1,32 +1,30 @@
 import React from 'react'
 import './HomeScreen.css'
-import Card from '../Card'
-import SingleCard from '../SingleCard'
+import Card from '../AllCards/Card.jsx'
+import SingleCard from '../AllCards/SingleCard.jsx'
 import img3 from '../Component/amazon_front.jpg'
-import ScrollCard  from '../ScrollCard.jsx'
+import ScrollCard  from '../AllCards/ScrollCard.jsx'
 import Footer from './Footer.jsx'
 
 const HomeScreen = () => {
   return (
     <>
     <div className="Home">
-    <div className="front-img">
+    <div className="home-front-img">
       <img src={img3} alt="front" />
     </div>
-    <div className="home">
-    
-   
-<Card className='start' 
-heading='Game Assesories'
-img1='https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Headset_2x._SY232_CB667159060_.jpg'
-img2="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Keyboard_2x._SY232_CB667159063_.jpg"
-img3="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Mouse_2x._SY232_CB667159063_.jpg"
-img4="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Chair_2x._SY232_CB667159060_.jpg"
-title1='Headsets'
-title2='Keyboard'
-title3='Mouse'
-title4='Chair'
-></Card>
+    <div className="home-all-cards">
+    <Card className='start' 
+    heading='Game Assesories'
+    img1='https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Headset_2x._SY232_CB667159060_.jpg'
+    img2="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Keyboard_2x._SY232_CB667159063_.jpg"
+    img3="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Mouse_2x._SY232_CB667159063_.jpg"
+    img4="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Chair_2x._SY232_CB667159060_.jpg"
+    title1='Headsets'
+    title2='Keyboard'
+    title3='Mouse'
+    title4='Chair'
+    ></Card>
    
    <SingleCard 
    heading='Deals in PCs'

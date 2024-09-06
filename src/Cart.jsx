@@ -4,7 +4,7 @@ import { useSelector,useDispatch } from 'react-redux';
 import { removeFromCart } from './Redux/Action'
 import {toast,ToastContainer} from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
-
+import { Link } from 'react-router-dom';
 
 const Cart = () => {
      
@@ -33,7 +33,9 @@ const handleRemoveCart=(id)=>{
             <h3>Shopping Cart</h3>
             <div className="right-cart">
            <div className="total-cart">Total  :  $ {a}</div>
-            <button className='btn2-cart'>Proceed to buy</button>
+            <Link to='/'>
+            <button className='btn2-cart'  >Proceed to buy</button>
+            </Link>
         </div>
 
     {

@@ -1,28 +1,28 @@
-.heading{
-    margin-top: 20px;
+.scroll-card-heading{
+    margin-top: 10px;
 }
-.ScrollCard{
+.scroll-card-link{
 display: flex;
 overflow-x: auto;
 }
-.ScrollCard::-webkit-scrollbar{
+.scroll-card-link::-webkit-scrollbar{
     width: 8px;
     height: 8px;
 }
-.Scroll1{
+.scroll-card-print{
     background-color: #efecec;
     width: 100%;
     height: 250px;
     
 }
-.Scroll1 img{
+.scroll-card-print img{
     margin-left: 20px;
     margin-top: 20px;
     height: 180px;
     width: 180px;
 }
 
-.data1{
+.scroll-card-data{
     background-color: rgb(249, 81, 81);
     color: white;
     font-size: 13px;

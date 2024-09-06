@@ -10,19 +10,18 @@ const NavBanner = () => {
     { "name": "Registry"},
     {"name": "Gift Cards"},
     {"name": "Sell"},
-    
     ]
     return (
     <>
     <div className="NavBanner">
-    <div className="all">
+    <div className="banner-all">
     <i class="fa-solid fa-bars"></i>
     <p>All</p>
     </div>
         {
             options.map((item)=>{
-                return(
-    <Link to='/products' className="nav2">{item.name}</Link> 
+            return(
+                <Link to='/products' className="banner-data">{item.name}</Link> 
             )})
         }
     

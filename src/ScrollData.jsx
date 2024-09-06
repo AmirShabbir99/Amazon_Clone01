@@ -1,6 +1,6 @@
 import React from 'react'
 import './ScrollData.css'
-import ProductCard from '../ProductCard'
+import ProductCard from './AllCards/ProductCard'
 const ScrollData = () => {
   return (
     <>

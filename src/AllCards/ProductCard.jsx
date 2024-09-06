@@ -1,7 +1,7 @@
 import React from 'react'
 import './ProductCard.css'
 import { useSelector,useDispatch } from 'react-redux';
-import { addToCart } from './Redux/Action'
+import { addToCart } from '../Redux/Action'
 import {toast,ToastContainer} from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 const ProductCard = (props) => {

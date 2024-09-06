@@ -1,28 +1,37 @@
-.card-all{
+.card-four
+{
     display: flex;
     width: 260px;
     height: 290px;
     margin-top: 10px;   
     margin-right: 20px;
+    margin-left: 10px;
     background-color: #efecec;
 }
-.card-full{ 
-   
+.card-full
+{ 
     margin: 10px 0 10px 5px;
 }
 
-.card1{
+.card-top
+{
     display: flex;
 }
-.cimg{
+.cimg
+{
     width: 110px;
     height: 100px;   
 }
-.card2
+.card-bottom
 {
-    margin-left: 10px;
     display: flex;
 }
-.data{
+.card-data
+{
     margin-left: 10px;
+}
+.card-name
+{
+    color: black;
+    text-align: center;
 }

@@ -1,73 +1,109 @@
-.front-img img{
-    width: 1280px;
+.home-front-img img
+{
+    width: 100%;
     height: 99vh;
     position: absolute;
     z-index: -1;
- }
-.home{
-    margin-left: 30px;
+}
+ .home-all-cards
+{
+    width: 100%;
+    margin-left: 50px;
     height: 122vh;
-    display: grid;
-    grid-template-columns:  auto auto auto auto;
-    grid-column-gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    position: static;
 }
 
-
-@media screen and (max-width: 480px) {
-    .nav {
-        width: 480px;
-        display: grid;
-        grid-template-rows: auto auto;
-    }
-   
-    .nav{
-        font-size: 13px;
-    }
-    .searchbar{
+@media screen and (max-width: 768px) 
+{   
+    
+    .nav-searchbar{
         width: 200px;
         font-size: 13px;
     }
-    .search input{
-       display: grid;
-       
-       grid-template-columns:auto;
-       width: 100px;
+    .nav-search input{
+       width: 150px;
        font-size: 13px;
     }
-    .arrow{
+    .nav-divide-one{
+        flex-wrap: wrap; 
+        justify-content: space-around;
+    }
+    
+    .nav-divide-two{
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: space-around;
+    }
+    
+   .scroll-card
+   {
+    margin-top: 650px;
+   }
+
+}
+
+@media screen and (max-width: 600px) {
+    .NavBar {
+        display: flex;
+        flex-wrap: wrap;
+        width: 600px;
+        font-size: 13px;
+    }
+   
+    .nav-searchbar{
+        
+        width: 200px;
+        font-size: 13px;
+    }
+    .nav-search input{
+       width: 150px;
+       font-size: 13px;
+    }
+    .nav-arrow{
         margin-left: -1px;
     }
 
-    .navthree{
-        display: grid;
-        grid-template-columns: 120px 120px 200px;
+    .nav-divide-one{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: space-around;
     }
-    .navfour{
-        display: grid;
-        grid-template-columns: 110px 110px 110px 110px;
+    .nav-divide-two{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: space-around;
     }
-
-    .NavBanner{
-        width: 480px;
-    }
-    .nav2
+    .NavBanner
     {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .banner-data
+    {   
         margin-top: 3px;
         padding: 5px;
         font-size: 14px;
     }
-    .return{
+    .nav-returnname{
         display: flex;
     }
-    .home{
-        position: relative;
+    .home-all-cards{
+        margin-left: -20;
         display: grid;
         grid-template-columns: auto auto;
         grid-template-rows: auto auto auto auto;
     }
-    .front-img img{
-    width: 480px;
+    .home-front-img img{
+    width: 100%;
     height: 99vh;
+    display: flex;
+    flex-wrap: wrap;
     }
     .card-all{
         background-color: rebeccapurple;
@@ -75,14 +111,37 @@
         height: 200px;
         margin-right: -1;
     }
+    .cimg{
+        width: 70px;
+        height: 50px;   
+    }
     .heading{
+        position: relative;
         margin-top: 650px;
     }
     .ScrollCard{
         margin-top: 650px;
     }
+    .PC{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
 
+
+
+/* ========================================== */
+
+.ProductCard{
+    height: 300px;
+    width: 280px;
+}
+.Product2{
+    display: none;
+}
 
 
 }
+
+
 
